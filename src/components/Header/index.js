@@ -47,7 +47,7 @@ const Header = props => {
               className="logout-button-sm"
               onClick={onClickLogout}
             >
-              <FiLogOut className="logout-icon-sm" />
+              <FiLogOut className="logout-icon-sm" aria-label="logout" />
             </button>
           </li>
         </ul>
